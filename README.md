@@ -13,23 +13,32 @@ D) [Make your Arduino sing!](#part-d-make-your-arduino-sing)
 
 E) [Make your own timer](#part-e-make-your-own-timer) 
  
-## In The Report
-Include your responses to the bold questions on your own fork of [this lab report template](https://github.com/FAR-Lab/IDD-Fa18-Lab2). Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as README.md pages on your GitHub, and post a link to that on your main class hub page.
+
 
 ## Part A. Solder your LCD panel
 
 **Take a picture of your soldered panel and add it here!**
 
+
+
 ## Part B. Writing to the LCD
  
 **a. What voltage level do you need to power your display?**
 
+5V
+
 **b. What voltage level do you need to power the display backlight?**
+
+3.3V
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
 
+
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
- 
+```
+lcd.print("(whatever text to display)");
+```
+
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 
 
