@@ -76,8 +76,21 @@ void loop() {
 ## Part D. Make your Arduino sing!
 
 **a. How would you change the code to make the song play twice as fast?**
+
+To make the song play twice as fast, I changed NoteDuration from 
+
+```
+int noteDuration = 1000 / noteDurations[thisNote]; 
+```
+to 
+
+```
+int noteDuration = 500 / noteDurations[thisNote];
+```
  
 **b. What song is playing?**
+
+Star Wars Theme Song 
 
 
 ## Part E. Make your own timer
