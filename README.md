@@ -1,5 +1,7 @@
 # Make a Digital Timer!
  
+#### A Lab report by Hanyu Zhang 
+ 
 ## Overview
 For this assignment, you are going to 
 
